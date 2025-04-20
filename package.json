@@ -1,29 +1,18 @@
 {
-  "dependencies": {
-    "axios": "^1.8.4",
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.12.2",
-    "mysql2": "^3.14.0",
-    "papaparse": "^5.5.2",
-    "react-router-dom": "^7.5.0"
+  "name": "cookie-signature",
+  "version": "1.0.6",
+  "description": "Sign and unsign cookies",
+  "keywords": ["cookie", "sign", "unsign"],
+  "author": "TJ Holowaychuk <tj@learnboost.com>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/visionmedia/node-cookie-signature.git"},
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   },
   "scripts": {
-    "start": "node index.js"
+    "test": "mocha --require should --reporter spec"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.1"
-  },
-  "name": "stress-level-detection",
-  "version": "1.0.0",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "main": "index"
 }
